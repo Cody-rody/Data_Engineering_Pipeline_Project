@@ -37,7 +37,7 @@ def data_audit(file_path):
     try:
          print(df.describe(include="all").transpose())
     except Exception as e:
-        print("⚠️ Could not generate summary stats:", e)
+        print("Could not generate summary stats:", e)
 
 
     print("\n✅ Audit complete!")
