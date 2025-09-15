@@ -1,0 +1,8 @@
+order_id,customer_name,product,quantity,price,order_date,city,total_amount
+1001,Rahul Sharma,Laptop,1,55000.0,2024-05-12,Mumbai,55000.0
+1002,Ananya Singh,Smartphone,2,15000.0,2024-05-13,Delhi,30000.0
+1003,Vikram Rao,Headphones,1,2500.0,2024-05-13,Bengaluru,2500.0
+1004,Neha Verma,Laptop,1,60000.0,2024-05-14,Mumbai,60000.0
+1005,Rahul Sharma,Smartwatch,1,7000.0,2024-05-15,Delhi,7000.0
+1006,Priya Mehta,Smartphone,1,32916.666666666664,2024-05-15,Hyderabad,32916.666666666664
+1007,Vikram Rao,Laptop,1,58000.0,2024-05-13,Bengaluru,58000.0

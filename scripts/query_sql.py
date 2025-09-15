@@ -14,7 +14,7 @@ print(df_preview)
 #Total sales value
 query2 = "SELECT ROUND(SUM(total_amount),2)AS total_sales FROM sales"
 df_total = pd.read_sql_query(query2,conn)
-print("Sum of total values of sales")
+print("<---SUM OF THE TOTAL VALUES OF SALES--->")
 print(df_total)
 
 query3 = """
@@ -25,7 +25,7 @@ ORDER BY total_spent DESC;
 """
 
 df_customers = pd.read_sql_query(query3,conn)
-print("Top Customers by Total Purchase")
+print("<---TOP CUSTOMERS BY TOTAL PURCHASE--->")
 print(df_customers)
 
 query4=  """
@@ -36,7 +36,7 @@ ORDER BY total_revenue DESC;
 """
 
 df_Best_product = pd.read_sql_query(query4,conn)
-print("Best Selling product from company")
+print("<---BEST SELLING PRODUCT BY COMPANY--->")
 print(df_Best_product)
 
 query5 = """
@@ -46,7 +46,7 @@ GROUP BY city
 ORDER BY city_sales DESC;
 """
 df_city = pd.read_sql_query(query5,conn)
-print("City wise Sales distribution")
+print("<---CITY WISE SALES DISTRIBUTION--->")
 print(df_city)
 
 query6="""
@@ -56,7 +56,7 @@ GROUP BY month
 ORDER BY month;
 """
 df_month = pd.read_sql_query(query6,conn)
-print("Monthly sales")
+print("<---MONTHLY SALES--->")
 print(df_month)
 
 query7 = """
@@ -66,7 +66,7 @@ ORDER BY total_amount DESC
 LIMIT 1;
 """
 df_highest = pd.read_sql_query(query7,conn)
-print("Highest Single order value")
+print("<---HIGHEST SINGLE ORRDER VALUE--->")
 print(df_highest)
 
 

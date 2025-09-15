@@ -3,7 +3,7 @@ import sqlite3
 
 
 #Load cleaned csv file 
-df = pd.read_csv("sales_cleaned.csv")
+df = pd.read_csv("data/sales_cleaned.csv")
 
 #connect the sales database
 conn = sqlite3.connect("sales.db")
