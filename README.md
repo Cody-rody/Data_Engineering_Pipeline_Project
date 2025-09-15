@@ -1,7 +1,3 @@
-Got it ✅ I’ll prepare a **professional README.md** for your **Data Engineering Pipeline Project**. You can directly copy this into a `README.md` file at the root of your repo.
-
----
-
 # 📊 Data Engineering Pipeline Project
 
 ## 📌 Overview
